@@ -1,0 +1,25 @@
+.banner {
+    position: absolute;
+    float: left;
+    bottom: 0;
+    color: white;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-left: 2em;
+    letter-spacing: 2px;
+}
+
+.statement {
+    width: 100%;
+    margin: 0 1em;
+    margin-right: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Raleway";
+    url: "https://fonts.googleapis.com/css?family=Raleway"
+}
+
+@font-face {
+    font-family: "Roboto";
+    url: "https://fonts.googleapis.com/css?family=Roboto"
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+.header-img {
+    background-image: url("../img/rainier.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(100,149,237, .25);
+    text-align: right;
+    padding: 10px 10%;
+}
+
+nav:hover {
+    background-color: rgba(100, 149, 237, .9);
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    padding: 0 0 0 0.5em;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav ul li.current {
+    color: darkslategray;
+}
