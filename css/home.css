@@ -11,9 +11,8 @@
 }
 
 .statement {
-    width: 100%;
-    margin: 0 1em;
-    margin-right: 0;
+    margin: 0 10vw;
+    line-height: 2;
 }
 
 h1 {

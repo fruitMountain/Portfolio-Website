@@ -1,9 +1,10 @@
-.h1{
+h1{
     font-family: 'Raleway', sans-serif;
+    margin: 0 20vw;
 }
 
-.p{
+p{
     font-family: "Roboto", sans-serif;
-    margin: 0 25vw;
+    margin: 0 20vw;
     line-height: 2;
 }
