@@ -1,4 +1,4 @@
-h1{
+h1, h2{
     font-family: 'Raleway', sans-serif;
     margin: 0 20vw;
 }
@@ -6,5 +6,44 @@ h1{
 p{
     font-family: "Roboto", sans-serif;
     margin: 0 20vw;
+    margin-bottom: 1em;
     line-height: 2;
+}
+
+.bodytext{
+    margin-bottom: 4em;
+}
+
+.balloon{
+    background-image: url("../img/balloon1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.citation{
+    font-size: 0.8em;
+    color: gray;
+    font-style: italic;
+}
+
+footer{
+    padding: 1em 0;
+    width:100%;
+    background-color: rgba(100, 149, 237, 1);
+}
+
+footer a{
+    color: darkslategray;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 5px;
 }
