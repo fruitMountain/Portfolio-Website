@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 h1, h2{
     font-family: 'Raleway', sans-serif;
     margin: 0 20vw;
@@ -11,7 +16,7 @@ p{
 }
 
 .bodytext{
-    margin-bottom: 4em;
+    padding-bottom: 12em;
 }
 
 .balloon{
@@ -24,23 +29,15 @@ p{
 }
 
 .citation{
+    margin: 0 20vw;
     font-size: 0.8em;
     color: gray;
     font-style: italic;
 }
 
-footer{
-    padding: 1em 0;
-    width:100%;
-    background-color: rgba(100, 149, 237, 1);
-}
-
-footer a{
-    color: darkslategray;
-}
-
 .row{
     display: flex;
+
 }
 
 .column{

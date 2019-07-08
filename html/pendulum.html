@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Seth Berryhill</title>
         <link href="../css/styles.css" type="text/css" rel="stylesheet"/>
-        <link href="../css/portal.css" type="text/css" rel="stylesheet"/>
+        <link href="../css/body.css" type="text/css" rel="stylesheet"/>
         <link href="../img/sb.png" type="image/png" rel="shortcut icon"/>
     </head>
 
@@ -16,4 +16,28 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
+
+        <div class="bodytext">
+        <h1>Inverted Pendulum Project</h1>
+
+        <p>For my Dynamic Modeling course, ME313, we built a controlled, fixed-axis, inverted pendulum. The pivot of the pendulum is attached to a gear box with a 5V motor providing torque. As part of the project we learned to represent the physical system in terms of state variables, as well as describing it using laplace transfer functions. At the same time I was also in a more advanced Control Systems course, ME/ECE481, which allowed me to use more advanced control practices in my inverted pendulum.</p>
+
+        <p class="citation">
+            <img alt="Something went wrong when you tried to load this image" src="../img/pendulum.jpg" width="100%" />
+        </p>
+
+        <p>To initially stabilize the system I designed a PID (proportional, integral, derivative) controller. This algorithm can be found on my Github page <a href="https://github.com/fruitMountain/Inverted-Pendulum">here.</a> I also used tools such as the Runge-Kutta method for solving differntial equations, in both Matlab and python, in order to model how different control methods would effect the system. </p>
+
+        <p class="citation">
+            <img alt="Something went wrong when you tried to load this image" src="../img/PID.jpg" width="100%" />
+        </p>
+
+        </div>
+        <footer>
+            <p>Seth Berryhill <br/>
+                Email: seth.p.berryhill@gmail.com <br/>
+                <a href="contact.html" color="white">Contact Me</a></p>
+        </footer>
+
     </body>
+</html>
